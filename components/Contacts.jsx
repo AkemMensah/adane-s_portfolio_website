@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section className="bg-gray-800 pb-8" id="contact">
       <div className="lg:container px-5 pt-14">
-        <h2 className="title text-yellow-500" data-aos="fade-down">
+        <h2 className="title text-purple-500" data-aos="fade-down">
           Hire Me
         </h2>
         <h4 className="subtitle" data-aos="fade-down">
@@ -20,7 +20,7 @@ const Contact = () => {
           />
           <div
             data-aos="fade-left"
-            className="ml-4 border-2 border-yellow-700 max-w-md
+            className="ml-4 border-2 border-purple-700 max-w-md
            p-6 shadow-sm rounded-xl rounded-br-[8rem] sm:min-w-[22rem]"
           >
             <div className="w-full max-w-md bg-gray-950 p-5">
@@ -29,16 +29,17 @@ const Contact = () => {
               </h2>
               <address className="relative bg-gray-700 dark:border-gray-600 p-4 rounded-lg border border-gray-200 not-italic flex space-x-2">
                 <div className="space-y-2 text-gray-500 dark:text-gray-400 leading-loose hidden sm:block">
-                  Name <br />
-                  Email <br />
-                  Phone
+                  Name: <br />
+                  Email: <br />
+                  Phone:
                 </div>
                 <div
                   id="contact-details"
-                  className="space-y-2 text-yellow-600 font-medium leading-loose"
+                  className="space-y-2 text-purple-600 font-medium leading-loose"
                 >
-                  Bonnie Green <br />
-                  name@flowbite.com <br />+ 12 345 67890
+                  Akem Mensah <br />
+                  akemmensah@gmail.com <br />
+                  +233 8943700
                 </div>
               </address>
             </div>
@@ -51,7 +52,7 @@ const Contact = () => {
             <br />
             <a
               href="mailto:test@example.com"
-              className="btn bg-yellow-700 hover:bg-yellow-500 text-white"
+              className="btn bg-purple-700 hover:bg-purple-500 text-white"
             >
               Hire Me
             </a>
