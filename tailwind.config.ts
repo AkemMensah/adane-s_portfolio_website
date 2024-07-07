@@ -22,6 +22,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      screens: {
+        'max-640': {'max': '640px'},
+        'max-768': {'max': '768px'},
+        'max-920': {'max': '920px'},
+        'max-1024': {'max': '1024px'},
+      },
     },
   },
   plugins: [],
