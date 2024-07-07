@@ -2,6 +2,7 @@
 import { createElement, useState } from "react";
 import { HiAdjustmentsHorizontal } from "react-icons/hi2";
 import { FaSquareGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
 import { navItems } from "../data";
 
 const Navbar = () => {
@@ -15,13 +16,25 @@ const Navbar = () => {
       >
         <HiAdjustmentsHorizontal size={35} />
       </div>
-      <a href="https://github.com/AkemMensah" target="blank">
-      <div
-        className="sm:cursor-pointer fixed top-10 right-50 z-[999] rounded-lg bg-purple-900/70 p-2"
-      >
-        <FaSquareGithub size={35}/>
+      <div className={`fixed top-10 right-60 z-[999] flex gap-4 ${
+          showMenu ? "top-10" : "top-[-100%]"
+        }`}>
+
+        <a href="https://github.com/AkemMensah" target="blank">
+        <div
+          className="sm:cursor-pointer  rounded-lg bg-purple-900/70 p-2"
+        >
+          <FaSquareGithub size={35}/>
+        </div>
+        </a>
+        <a href="https://www.linkedin.com/in/akemmensah/" target="blank">
+        <div
+          className="sm:cursor-pointer  rounded-lg bg-purple-900/70 p-2"
+        >
+          <FaLinkedin size={35}/>
+        </div>
+        </a>
       </div>
-      </a>
       <nav
         className={`fixed  z-[999] flex items-center gap-5 bg-purple-800/60 px-6 py-3 backdrop-blur-md rounded-full text-gray-200 duration-300 ${
           showMenu ? "bottom-10" : "bottom-[-100%]"
