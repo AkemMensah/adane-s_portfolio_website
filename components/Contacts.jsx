@@ -45,9 +45,7 @@ const Contact = () => {
             </div>
 
             <p className="leading-7 text-gray-300">
-              In publishing and graphic design, Lorem ipsum is a placeholder
-              text commonly used to demonstrate the visual form of a document
-              elying on mean
+            I am eager to collaborate and share ideas on any project, leveraging my skills to contribute effectively. Let's work together to create innovative solutions and achieve remarkable results. I'm ready to make an impact.
             </p>
             <br />
             <a
