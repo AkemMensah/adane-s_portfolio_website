@@ -12,9 +12,9 @@ import ProjectImg3 from "@/public/img/payment_app.jpg";
 import Questions from "@/public/svg/Questions-amico.svg";
 import Progress from "@/public/svg/Product iteration-amico.svg";
 import Launch from "@/public/svg/Market launch-amico.svg";
-import Logo1 from "@/public/img/logo1.png";
-import Logo2 from "@/public/img/logo2.png";
-import Logo3 from "@/public/img/logo3.png";
+import web from "@/public/img/web.jpg";
+import mobile from "@/public/img/mobile.jpg";
+import game from "@/public/img/game0.jpg";
 import Avatar1 from "@/public/img/avatar1.png";
 import Avatar2 from "@/public/img/avatar2.png";
 import Avatar3 from "@/public/img/avatar3.png";
@@ -172,20 +172,20 @@ export const servicesItems = [
   {
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    logo: Logo1,
+    "As a web developer, I design and build responsive, user-friendly websites and applications. Using technologies like HTML, CSS, JavaScript, and frameworks such as React and Node.js, I create engaging digital experiences. I focus on clean code, performance optimization, and seamless functionality to deliver impactful solutions.",
+    logo: web,
   },
   {
     title: "Mobile Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    logo: Logo2,
+    "As a mobile developer, I create intuitive and efficient mobile applications for Android and iOS platforms. Using tools like Swift, Kotlin, and Flutter, I design, code, and test apps to ensure a seamless user experience. My focus is on performance, user-centric design, and delivering high-quality, scalable solutions.",
+    logo: mobile,
   },
   {
     title: "Game Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    logo: Logo3,
+    "As a game developer, I design and build engaging, interactive games using engines like Unity and Unreal. I create compelling storylines, realistic graphics, and seamless gameplay. My work involves coding, testing, and iterating to ensure a fun and immersive experience for players across various platforms.",
+    logo: game,
   },
 ];
 
@@ -193,25 +193,25 @@ export const testimonialsItems = [
   {
     name: "Tony",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Working with AkemMensah has been an absolute pleasure. Their expertise as a software developer is unparalleled. They delivered a high-quality, efficient solution tailored to our needs, and their professionalism and dedication were evident throughout the project. I highly recommend them for any software development needs.",
     image: Avatar1,
   },
   {
     name: "John Doe",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Working with Akem has been a game-changer for our project. Their expertise as a software developer is evident in the seamless, efficient solutions they deliver. Their ability to understand our needs and translate them into functional, user-friendly applications is remarkable. We highly recommend their services.",
     image: Avatar2,
   },
   {
     name: "Roddin",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Akem's expertise as a software developer is exceptional. They delivered seamless, efficient solutions tailored to our needs. Their ability to translate our requirements into functional, user-friendly applications was impressive. We highly recommend their services for any project.",
     image: Avatar3,
   },
   {
     name: "Jane",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Adane has been instrumental in transforming our project. Their expertise and dedication as a software developer ensured the delivery of efficient, user-friendly applications. We highly value their ability to understand our needs and deliver exceptional results.",
     image: Avatar4,
   },
 ];
@@ -238,3 +238,5 @@ export const approachItems = [
     image:Launch,
   }
 ]
+
+
