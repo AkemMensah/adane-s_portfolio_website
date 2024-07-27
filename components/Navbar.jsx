@@ -17,7 +17,7 @@ const Navbar = () => {
         <HiAdjustmentsHorizontal size={35} />
       </div>
       <div className={`fixed top-10 right-60 z-[999] flex gap-4 ${
-          showMenu ? "top-10" : "top-[-100%]"
+          showMenu ? "top-10 max-640:right-20" : "top-[-100%]"
         }`}>
 
         <a href="https://github.com/AkemMensah" target="blank">
@@ -37,7 +37,7 @@ const Navbar = () => {
       </div>
       <nav
         className={`fixed  z-[999] flex items-center gap-5 bg-purple-800/60 px-6 py-3 backdrop-blur-md rounded-full text-gray-200 duration-300 ${
-          showMenu ? "bottom-10" : "bottom-[-100%]"
+          showMenu ? "bottom-10 max-540:bottom-20" : "bottom-[-100%]"
         }`}
       >
         {navItems.map((item, index) => (
