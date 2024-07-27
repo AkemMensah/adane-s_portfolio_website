@@ -1,12 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Me from "@/public/img/Me.png";
+import Akem from "@/public/img/Akem.jpg"
 const Footer = () => {
   return (
     <footer className="bg-gray-950">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-around">
-          <div className="mb-6 md:mb-0">
+          <div className="mb-6 md:mb-0 relative">
             <a href="https://flowbite.com/" className="flex items-center">
               <Image
                 src={Me}
@@ -17,6 +18,7 @@ const Footer = () => {
                 AkemMensah
               </span>
             </a>
+            {/* <Image src={Akem} alt="Me" className="w-2/5 absolute right-12 top-20 border-2 rounded-full "/> */}
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
@@ -117,8 +119,8 @@ const Footer = () => {
         <div className="sm:flex sm:items-center sm:justify-around">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400 lg:flex lg:justify-center">
             © 2024{" "}
-            <a href="https://flowbite.com/" className="hover:underline">
-              Flowbite™
+            <a href="https://github.com/" className="hover:underline">
+              Adane's portfolio™
             </a>
             . All Rights Reserved.
           </span>
