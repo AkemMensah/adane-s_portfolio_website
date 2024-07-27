@@ -12,8 +12,8 @@ const Testimonials = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <section>
-      <div className="px-5 pt-14 md:container bg-gray-400">
-        <h2 className="title text-purple-500" data-aos="fade-down">
+      <div className="px-5 pt-14 bg-gray-400">
+        <h2 className="title text-purple-700" data-aos="fade-down">
           Testimonials
         </h2>
         <h4 className="subtitle" data-aos="fade-down">
