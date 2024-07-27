@@ -5,14 +5,13 @@ import { Pagination } from "swiper/modules";
 import { projectsItems } from "@/data";
 
 import ProjectsSVG from "@/public/svg/Innovation-amico.svg";
-// import ProjectsSVG from "@/public/svg/Questions-amico.svg";
 import "swiper/css";
 import "swiper/css/pagination";
 
 const Projects = () => {
   return (
     <section className="bg-gray-800 pb-4" id="projects">
-      <div className="md:container px-5 pt-14 min-h-screen md:min-h-min flex flex-col justify-between">
+      <div className=" px-5 pt-14 min-h-screen md:min-h-min flex flex-col justify-between">
         <div>
           <h2 className="title text-purple-500" data-aos="fade-down">
             Projects
