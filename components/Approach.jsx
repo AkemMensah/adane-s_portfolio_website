@@ -1,12 +1,12 @@
 // "use client";
 import Image from "next/image";
 import { approachItems } from "@/data";
-import Plan from "../public/svg/agile method-amico.svg";
+// import Plan from "../public/svg/agile method-amico.svg";
 
 const Approach = () => {
   return (
     <section id="services">
-      <div className="md:container px-5 py-14 bg-gray-700">
+      <div className=" px-5 py-14 bg-gray-700">
         <h2 className="title text-purple-800" data-aos="fade-down">
           My <span>Approach</span>
         </h2>
