@@ -5,7 +5,7 @@ import { servicesItems } from "@/data";
 const Services = () => {
   return (
     <section id="services">
-      <div className="md:container px-5 py-14 bg-slate-900">
+      <div className=" w-full px-5 py-14 bg-slate-900">
         <h2 className="title text-purple-800" data-aos="fade-down">
           Services
         </h2>
