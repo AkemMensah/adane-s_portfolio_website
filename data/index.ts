@@ -211,25 +211,35 @@ export const testimonialsItems = [
   {
     name: "Tony",
     review:
-    "Working with AkemMensah has been an absolute pleasure. Their expertise as a software developer is unparalleled. They delivered a high-quality, efficient solution tailored to our needs, and their professionalism and dedication were evident throughout the project. I highly recommend them for any software development needs.",
+    "Working with AkemMensah has been an absolute pleasure.\
+    Their expertise as a software developer is unparalleled.\
+    They delivered a high-quality, efficient solution tailored\
+    to our needs.",
     image: Avatar1,
   },
   {
     name: "John Doe",
     review:
-    "Working with Akem has been a game-changer for our project. Their expertise as a software developer is evident in the seamless, efficient solutions they deliver. Their ability to understand our needs and translate them into functional, user-friendly applications is remarkable. We highly recommend their services.",
+    "Working with Akem has been a game-changer for our project.\
+    Their expertise as a software developer is evident in the\
+    seamless, efficient solutions they deliver. ",
     image: Avatar2,
   },
   {
     name: "Roddin",
     review:
-    "Akem's expertise as a software developer is exceptional. They delivered seamless, efficient solutions tailored to our needs. Their ability to translate our requirements into functional, user-friendly applications was impressive. We highly recommend their services for any project.",
+    "Akem's expertise as a software developer is exceptional.\
+    They delivered seamless, efficient solutions tailored to our\
+    needs. Their ability to translate our requirements into\
+    functional, user-friendly applications was impressive.",
     image: Avatar3,
   },
   {
     name: "Jane",
     review:
-    "Adane has been instrumental in transforming our project. Their expertise and dedication as a software developer ensured the delivery of efficient, user-friendly applications. We highly value their ability to understand our needs and deliver exceptional results.",
+    "Adane has been instrumental in transforming our project.\
+    Their expertise and dedication as a software developer\
+    ensured the delivery of efficient, user-friendly applications.",
     image: Avatar4,
   },
 ];
