@@ -20,6 +20,9 @@ import Avatar2 from "@/public/img/avatar2.png";
 import Avatar3 from "@/public/img/avatar3.png";
 import Avatar4 from "@/public/img/avatar4.png";
 import Ux from "@/public/svg/ui ux design.png";
+import Tailwind from "@/public/img/tailwind.png";
+import version from "@/public/img/version.png";
+import Bootstrap from "@/public/img/bootstrap.png";
 import React from "@/public/svg/react.svg";
 import Django from "@/public/svg/django.svg";
 import Html from "@/public/svg/code.png";
@@ -165,6 +168,21 @@ export const skillsItems = [
     name: "HTML/CSS",
     description:"Semantic Html with flawless designs",
     logo: Html,
+  },
+  {
+    name: "Bootstrap",
+    description:"Responsive development of mobile-first websites",
+    logo: Bootstrap,
+  },
+  {
+    name: "TailwindCss",
+    description:"Utility first-class framework for rapid custom UI",
+    logo: Tailwind,
+  },
+  {
+    name: "Version control(Git)",
+    description:"Tracking and Managing changes to software code",
+    logo: version,
   },
 ];
 
