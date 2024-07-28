@@ -1,6 +1,6 @@
 import nodemailer from 'nodemailer';
 
-export default async (req, res) => {
+const ContAPI = async (req, res) => {
   if (req.method === 'POST') {
     const { name, email, message } = req.body;
 
@@ -34,3 +34,5 @@ export default async (req, res) => {
     res.status(405).end(`Method ${req.method} not allowed`);
   }
 };
+
+export default ContAPI;
