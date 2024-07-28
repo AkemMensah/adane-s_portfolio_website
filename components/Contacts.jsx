@@ -1,5 +1,7 @@
 import Image from "next/image";
 import ConactSVG from "../public/svg/contact.svg";
+
+
 const Contact = () => {
   return (
     <section className="bg-gray-800 pb-8" id="contact">
@@ -45,7 +47,7 @@ const Contact = () => {
             </div>
 
             <p className="leading-7 text-gray-300">
-            I am eager to collaborate and share ideas on any project, leveraging my skills to contribute effectively. Let's work together to create innovative solutions and achieve remarkable results. I'm ready to make an impact.
+            I am eager to collaborate and share ideas on any project, leveraging my skills to contribute effectively. Let&apos;s work together to create innovative solutions and achieve remarkable results. I&apos;m ready to make an impact.
             </p>
             <br />
             <a

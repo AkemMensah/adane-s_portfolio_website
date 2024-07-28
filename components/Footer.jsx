@@ -59,7 +59,7 @@ const Footer = () => {
             </div>
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                Let's Connect:
+                Let&apos;s Connect:
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-2">
@@ -120,7 +120,7 @@ const Footer = () => {
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400 lg:flex lg:justify-center">
             © 2024{" "}
             <a href="https://github.com/" className="hover:underline">
-              Adane's portfolio™
+              Adane&apos;s portfolio™
             </a>
             . All Rights Reserved.
           </span>

@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
-import Me from "@/public/img/me.png";
+import Mensah from "@/public/img/mensah.png";
 
 // import ProjectsSVG from "@/public/svg/Innovation-amico.svg";
 import "swiper/css";
@@ -24,7 +24,7 @@ const Projects = () => {
         </div>
         <div className="flex items-center lg:flex-row flex-col-reverse max-1024:flex-col max-1024:gap-10 gap-4">
           <Image
-            src={Me}
+            src={Mensah}
             alt="MyImage"
             data-aos="fade-left"
             className="max-w-[35vw] min-w-[22rem] rounded-3xl text-purple-800"
