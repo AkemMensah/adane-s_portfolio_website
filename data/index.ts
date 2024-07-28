@@ -229,8 +229,7 @@ export const testimonialsItems = [
     name: "Roddin",
     review:
     "Akem's expertise as a software developer is exceptional.\
-    They delivered seamless, efficient solutions tailored to our\
-    needs. Their ability to translate our requirements into\
+    Their ability to translate our requirements into\
     functional, user-friendly applications was impressive.",
     image: Avatar3,
   },
