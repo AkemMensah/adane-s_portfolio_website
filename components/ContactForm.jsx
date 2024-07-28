@@ -59,19 +59,19 @@ const ContactForm = () => {
 
   return (
     <div className='contact-form text-center mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 bg-slate-700'>
-      <h4>Send a Message:</h4>
+      <h4 className='max-920:text-5xl'>Send a Message:</h4>
       {submitted && (
         <p className="mt-2 text-green-500 text-xl bg-transparent border border-purple-700 rounded p-3">
           Thank you for your message!
         </p>
       )}
-      <form onSubmit={handleSubmit} className='form w-full flex flex-wrap items-center justify-center gap-4 max-640:flex-col'>
-        <div className='address flex flex-col items-center w-1/3 max-640:w-full mt-4'>
-          <div className='contact_name text-left w-full my-4'>
+      <form onSubmit={handleSubmit} className='form w-full flex flex-wrap items-center justify-center gap-4 max-640:flex-col max-920:flex-col max-1024:flex-col '>
+        <div className='address flex flex-col items-center w-1/3 max-640:w-full mt-4 max-920:w-2/3 max-1024:w-2/3 max-920:text-2xl'>
+          <div className='contact_name text-left w-full my-4 '>
             <label htmlFor="name">Name:</label>
             <br />
             <input
-              className="w-full h-10 border-black border-2 rounded-md"
+              className="w-full h-10 max-920:h-20 border-black border-2 rounded-md"
               type="text"
               name="name"
               id="name"
@@ -82,11 +82,11 @@ const ContactForm = () => {
             />
             {errors.name && <span className="error text-red-600">{errors.name}</span>}
           </div>
-          <div className='contact_email w-full text-left'>
+          <div className='contact_email w-full text-left '>
             <label htmlFor="email">Email:</label>
             <br />
             <input
-              className='w-full h-10 border-black border-2 rounded-md'
+              className='w-full h-10 max-920:h-20 border-black border-2 rounded-md'
               type="text"
               name="email"
               id="email"
@@ -97,11 +97,11 @@ const ContactForm = () => {
             {errors.email && <span className="error text-red-600">{errors.email}</span>}
           </div>
         </div>
-        <div className='contact_message w-2/5 max-640:w-full h-32 text-left'>
+        <div className='contact_message w-2/5 max-640:w-full max-920:w-2/3 max-920:text-2xl max-1024:w-2/3 h-32 text-left'>
           <label htmlFor="message">Message:</label>
           <br />
           <textarea
-            className="border-black border-2 w-full h-full rounded-md"
+            className="border-black border-2 w-full h-full rounded-md max-920:h-52"
             type="text"
             name="message"
             id="message"
@@ -111,7 +111,7 @@ const ContactForm = () => {
           />
           {errors.message && <span className="error text-red-600">{errors.message}</span>}
         </div>
-        <button type='submit' className='w-1/3 text-2xl border-black border-2 rounded-md my-10 h-10 bg-purple-900 hover:bg-purple-950'>
+        <button type='submit' className='w-1/3 max-920:h-20 max-920:text-3xl max-920:my-36 text-2xl border-black border-2 rounded-md my-10 h-10 bg-purple-900 hover:bg-purple-950'>
           Submit
         </button>
       </form>

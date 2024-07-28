@@ -13,11 +13,11 @@ const Services = () => {
           WHAT I DO
         </h4>
         <br />
-        <div className="flex gap-5 justify-between flex-wrap group">
+        <div className="flex gap-5 justify-between flex-wrap group ">
           {servicesItems.map((item, index) => (
             <div
               key={index}
-              className="min-w-[14rem] duration-300 cursor-pointer border-2 border-black rounded-xl text-center bg-gray-600 p-6 flex-1 group-hover:blur-sm 
+              className="min-w-[14rem] max-920:min-w-[20rem] max-1024:min-w-[20rem] duration-300 cursor-pointer border-2 border-black rounded-xl text-center bg-gray-600 p-6 flex-1 group-hover:blur-sm 
               hover:!blur-none"
               data-aos="fade-up"
               data-aos-delay={index * 500}

@@ -17,12 +17,12 @@ const Approach = () => {
             
             <div
               key={index}
-              className="min-w-[14rem] duration-300 cursor-pointer border-2 border-purple-500 rounded-xl text-center bg-slate-900 p-6 flex-1 group-hover:blur-sm 
+              className="min-w-[14rem] max-920:min-w-[20rem] max-1024:min-w-[20rem] duration-300 cursor-pointer border-2 border-purple-500 rounded-xl text-center bg-slate-900 p-6 flex-1 group-hover:blur-sm 
               hover:!blur-none"
               data-aos="fade-up"
               data-aos-delay={index * 500}
             >
-            <div className="w-full flex justify-center mb-8">
+            <div className="w-full flex justify-center mb-8 ">
               <Image src={item.image} alt="approach" className="w-44 duration-200 group-hover:scale-125" />
               </div>
               <h5 className="subtitle text-purple-800" data-aos="fade-right" >

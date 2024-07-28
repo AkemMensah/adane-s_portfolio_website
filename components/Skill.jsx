@@ -62,8 +62,10 @@ const Skills = () => {
                 <h3 className="text-gray-100">BackEnd</h3>
                 <li className="italic text-gray-300">Data Structures</li>
                 <li className="italic text-gray-300">C/C++</li>
+                <li className="italic text-gray-300">NodeJs</li>
                 <li className="italic text-gray-300">Data Bases (SQL)</li>
                 <li className="italic text-gray-300">Networking</li>
+                <li className="italic text-gray-300">...</li>
                 
               </div>
             </div>

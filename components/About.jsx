@@ -22,7 +22,7 @@ const Projects = () => {
           </h4>
           <br />
         </div>
-        <div className="flex items-center lg:flex-row flex-col-reverse gap-4">
+        <div className="flex items-center lg:flex-row flex-col-reverse max-1024:flex-col max-1024:gap-10 gap-4">
           <Image
             src={Me}
             alt="MyImage"

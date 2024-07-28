@@ -18,7 +18,7 @@ const Footer = () => {
                 AkemMensah
               </span>
             </a>
-            {/* <Image src={Akem} alt="Me" className="w-2/5 absolute right-12 top-20 border-2 rounded-full "/> */}
+            <Image src={Akem} alt="Me" className="w-2/5 absolute right-12 top-20 border-2 rounded-full max-640:top-60 max-640:w-1/5 max-640:right-40"/>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>

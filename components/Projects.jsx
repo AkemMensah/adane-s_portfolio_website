@@ -21,7 +21,7 @@ const Projects = () => {
           </h4>
           <br />
         </div>
-        <div className="flex items-center lg:flex-row flex-col-reverse gap-5">
+        <div className="flex items-center lg:flex-row flex-col-reverse max-1024:flex-col gap-5">
           <Image
             src={ProjectsSVG}
             alt="..."

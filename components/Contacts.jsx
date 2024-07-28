@@ -11,7 +11,7 @@ const Contact = () => {
           FOR YOUR PROJECTS
         </h4>
         <br />
-        <div className="flex items-center flex-col space-y-4 lg:flex-row">
+        <div className="flex items-center flex-col max-1024:flex-col max-1024:gap-10 space-y-4 lg:flex-row">
           <Image
             src={ConactSVG}
             alt="Contact SVG"
