@@ -15,10 +15,10 @@ import Launch from "@/public/svg/Market launch-amico.svg";
 import web from "@/public/img/web.jpg";
 import mobile from "@/public/img/mobile.jpg";
 import game from "@/public/img/game0.jpg";
-import Avatar1 from "@/public/img/avatar1.png";
-import Avatar2 from "@/public/img/avatar2.png";
-import Avatar3 from "@/public/img/avatar3.png";
-import Avatar4 from "@/public/img/avatar4.png";
+import Sammy from "@/public/img/Sammy.jpg"
+import Jane from "@/public/img/Jane.jpg"
+import John from "@/public/img/John Bright.jpg"
+import Sarah from "@/public/img/Sarah.jpg"
 import Ux from "@/public/svg/ui ux design.png";
 import Tailwind from "@/public/img/tailwind.png";
 import version from "@/public/img/version.png";
@@ -209,29 +209,29 @@ export const servicesItems = [
 
 export const testimonialsItems = [
   {
-    name: "Tony",
+    name: "Sammy",
     review:
     "Working with AkemMensah has been an absolute pleasure.\
     Their expertise as a software developer is unparalleled.\
     They delivered a high-quality, efficient solution tailored\
     to our needs.",
-    image: Avatar1,
+    image: Sammy,
   },
   {
-    name: "John Doe",
+    name: "John Bright",
     review:
     "Working with Akem has been a game-changer for our project.\
     Their expertise as a software developer is evident in the\
     seamless, efficient solutions they deliver. ",
-    image: Avatar2,
+    image: John,
   },
   {
-    name: "Roddin",
+    name: "Sarah",
     review:
     "Akem's expertise as a software developer is exceptional.\
     Their ability to translate our requirements into\
     functional, user-friendly applications was impressive.",
-    image: Avatar3,
+    image: Sarah,
   },
   {
     name: "Jane",
@@ -239,7 +239,7 @@ export const testimonialsItems = [
     "Adane has been instrumental in transforming our project.\
     Their expertise and dedication as a software developer\
     ensured the delivery of efficient, user-friendly applications.",
-    image: Avatar4,
+    image: Jane,
   },
 ];
 
