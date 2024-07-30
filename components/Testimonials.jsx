@@ -35,11 +35,11 @@ const Testimonials = () => {
           {testimonialsItems.map((item, i) => (
             <SwiperSlide key={i}>
               <div
-                className={`mx-8 flex h-full flex-col items-center gap-6 rounded-2xl border-2 border-yellow-800 bg-gray-800 p-8 duration-500 md:flex-row ${
+                className={`mx-8 flex h-full flex-col items-center gap-6 rounded-2xl border-2 border-purple-800 bg-gray-800 p-8 duration-500 md:flex-row ${
                   activeIndex !== i && "scale-75 blur-sm"
                 }`}
               >
-                <Image src={item.image} alt={item.name} className="h-24 w-24" />
+                <Image src={item.image} alt={item.name} className="h-24 w-24 rounded-full" />
                 <div>
                   <p className="text-sm text-gray-400 sm:text-base">
                     {item.review}
