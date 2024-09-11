@@ -144,7 +144,7 @@ export const skillsItems = [
     logo: Js,
   },
   {
-    name: "React/Nextjs",
+    name: "React/Nextjs/Redux Toolkit",
     description:"FrontEnd expert with React & NextJs",
     logo: React,
   },
