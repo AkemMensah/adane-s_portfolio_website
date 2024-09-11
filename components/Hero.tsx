@@ -29,7 +29,7 @@ const Hero = () => {
             <h3 className="text-purple-500 mt-[-10]">Full Stack Developer</h3>
             <br />
             <div className="flex justify-end absolute left-60 bottom-4 max-640:left-10 max-640:bottom-0">
-              <a href="https://drive.google.com/file/d/1CBiWVBAErG9nTADw0bnH_vZZWu4EOL7J/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/18nXC7zYFW-JvRwcor26RoUEQtEumehh4/view?usp=sharing">
 
               <button className="btn text-2xl bg-purple-700 text-gray-200 px-0 hover:bg-purple-900 max-640:ml-4 max-640:text-lg">
                 See Resume

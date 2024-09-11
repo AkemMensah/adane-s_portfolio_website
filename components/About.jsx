@@ -68,7 +68,7 @@ const Projects = () => {
                     <li>
                         <span className="font-bold text-gray-500">African Leadership X (ALX)</span><br />
                         <span className="text-gray-500">ALX AiCE - AI Career Essentials</span><br />
-                        <span className="text-gray-500">July 8, 2023 - Present</span>
+                        <span className="text-gray-500">July 8, 2024 - August 28,2024</span>
                     </li>
 
                   </ul>
