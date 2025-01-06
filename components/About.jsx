@@ -39,10 +39,10 @@ const Projects = () => {
               >
                 <div className="flex flex-col gap-1 mt-2">
                   <h4 className="font-bold font-Poppins text-gray-100">
-                    Curious,Adaptable & Resilient
+                    Curious, Adaptable & Resilient
                   </h4>
                   <p className=" text-gray-500 text-lg">
-                  I am a versatile Full Stack Software Engineer with a strong foundation in mathematics and economics. My adaptability, curiosity, and resilience drive me to tackle complex problems and continuously expand my knowledge. Proficient in JavaScript, React, Node.js, and various databases, I excel in developing and optimizing web applications. My background in mathematics and economics enhances my analytical and problem-solving skills, enabling me to deliver efficient and scalable solutions. I thrive in agile team environments, consistently collaborating to achieve project goals. Committed to innovation and excellence, I am dedicated to advancing my expertise and contributing to impactful software development projects.
+                  I am a versatile Full Stack Software Engineer with a passion for tackling complex problems and continuously expanding my knowledge. Proficient in JavaScript, React, Node.js, Python, Django,etc. and various databases, I excel in developing and optimizing web applications. My analytical mindset and problem-solving skills enable me to deliver efficient and scalable solutions. I thrive in agile team environments, consistently collaborating to achieve project goals. Committed to innovation and excellence, I am dedicated to advancing my expertise and contributing to impactful software development projects.
                   </p>
                 </div>
               </SwiperSlide>
@@ -72,7 +72,9 @@ const Projects = () => {
 
                   </ul>
                   {/* <br className="border border-black" /> */}
-                  <p className="text-lg text-gray-500">As a dedicated software developer, I thrive in the fast-paced tech world, continuously enhancing my skills and staying current with industry trends. My passion for learning drives me to explore new technologies, enabling me to deliver innovative solutions and contribute effectively to dynamic development teams.</p>
+                  <p className="text-lg text-gray-500">
+                    I am a dedicated software developer passionate about learning and delivering innovative solutions while staying current with industry trends.
+                    </p>
                 </div>
               </SwiperSlide>
               <SwiperSlide
@@ -80,10 +82,10 @@ const Projects = () => {
               >
                 <div className="flex flex-col gap-1 mt-2">
                   <h4 className="font-bold font-Poppins text-gray-100">
-                    Experience
+                  Skilss & Competencies
                   </h4>
                   <p className=" text-gray-500 text-lg ">
-                  As a recent software engineering graduate, I am eager to apply my academic knowledge and technical skills in an entry-level role or internship. My passion for technology drives me to continuously learn and adapt in a rapidly evolving industry. I am committed to building strong foundations in software development, contributing effectively to projects, and collaborating with experienced professionals. With a solid grounding in programming, problem-solving, and software design, I am ready to take on challenges and grow within a dynamic team. My goal is to gain hands-on experience and make meaningful contributions to impactful projects, fostering both personal and professional growth. I aim to leverage my enthusiasm and adaptability to contribute to innovative solutions and become a valuable team member.
+                  With a Year experience in the industry,I am eager to apply my technical skills and knowledge in a role where I can contribute to impactful projects and collaborate with experienced professionals. Driven by a passion for technology, I continuously learn and adapt in the rapidly evolving industry. With a solid foundation in programming, problem-solving, and software design, I am ready to take on challenges and grow within a dynamic team. My goal is to gain hands-on experience, contribute to innovative solutions, and become a valuable team member while fostering personal and professional growth.
                   </p>
                 </div>
               </SwiperSlide>
