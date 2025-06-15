@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import { projectsItems } from "@/data";
-
+import Link from "next/link";
 import ProjectsSVG from "@/public/svg/Innovation-amico.svg";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -44,9 +44,12 @@ const Projects = () => {
                   <h5 className="font-bold font-Poppins text-gray-100">
                     {item.title}
                   </h5>
-                  <button className="font-bold text-gray-500 self-end">
-                    READ MORE
-                  </button>
+                  <a
+                    href={item.link}
+                    className="font-bold text-gray-500 self-end hover:text-purple-400 transition-colors"
+                  >
+                    <button>VISIT APP</button>
+                  </a>
                 </div>
               </SwiperSlide>
             ))}
