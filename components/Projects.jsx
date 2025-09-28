@@ -30,7 +30,7 @@ const Projects = () => {
           />
           <Swiper
             pagination={{ clickable: true }}
-            spaceBetween={20}
+            spaceBetween={10}
             modules={[Pagination]}
             className="rounded-3xl pb-16 max-w-md max-640:w-5/6 shadow-lg shadow-purple-700 self-start "
           >
@@ -41,12 +41,15 @@ const Projects = () => {
               >
                 <Image src={item.image} alt={item.title} />
                 <div className="flex flex-col gap-1 mt-2">
+                <a href={item.link} target="_blank" className="grid grid-cols-2">
                   <h5 className="font-bold font-Poppins text-gray-100">
                     {item.title}
                   </h5>
-                  <button className="font-bold text-gray-500 self-end">
+                  
+                  <button className="font-bold text-gray-500 self-end text-end">
                     READ MORE
                   </button>
+                  </a>
                 </div>
               </SwiperSlide>
             ))}

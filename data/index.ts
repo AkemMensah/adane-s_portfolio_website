@@ -124,13 +124,16 @@ export const gridItems = [
 
 export const projectsItems = [
   {
-    title: "E-commerce Website",
-    image: ProjectImg1,
+    title: "Restaurant Platform",
+    image: ProjectImg2,
+    link:"https://dinehub-six.vercel.app/"
   },
   {
-    title: "Restaurant App",
-    image: ProjectImg2,
+    title: "E-commerce Website",
+    image: ProjectImg1,
+    link:"https://silver-gain.vercel.app/"
   },
+  
   {
     title: "Morden Payment App",
     image: ProjectImg3,

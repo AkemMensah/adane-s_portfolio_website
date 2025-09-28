@@ -12,10 +12,10 @@ const Hero = () => {
           data-aos="slide-left"
           data-aos-delay="1200"
         >
-          <div className="flex relative h-full flex-col justify-center md:w-12 max-640:w-12">
-            <h1 className=" ml-6  rotate-90  mb-20 md:ml-12 md:text-5xl">
-              <span className="text-white mr-0 text-5xl">Akem</span>
-              <span className="text-gray-950 text-5xl">Mensah</span>
+          <div className="flex relative h-full flex-col align-center md:w-12 max-640:w-12">
+            <h1 className=" ml-6  rotate-90 mt-20 md:ml-12 md:text-5xl">
+              <span className="text-white mr-0 text-6xl">Akem</span>
+              <span className="text-gray-950 text-6xl">Mensah</span>
             </h1>
           </div>
         </div>
@@ -29,7 +29,7 @@ const Hero = () => {
             <h3 className="text-purple-500 mt-[-10]">Full Stack Developer</h3>
             <br />
             <div className="flex justify-end absolute left-60 bottom-4 max-640:left-10 max-640:bottom-0">
-              <a href="https://drive.google.com/file/d/18nXC7zYFW-JvRwcor26RoUEQtEumehh4/view?usp=sharing">
+              <a href="https://docs.google.com/document/d/1_dPwEacvtiGNDBD92EWEoH-nT3IeLqDz/edit?usp=sharing&ouid=103475265721559371163&rtpof=true&sd=true">
 
               <button className="btn text-2xl bg-purple-700 text-gray-200 px-0 hover:bg-purple-900 max-640:ml-4 max-640:text-lg">
                 See Resume

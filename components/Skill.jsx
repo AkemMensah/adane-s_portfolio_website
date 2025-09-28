@@ -59,14 +59,23 @@ const Skills = () => {
 
               </div>
               <div className="list">
-                <h3 className="text-gray-100">BackEnd</h3>
-                <li className="italic text-gray-300">Data Structures</li>
-                <li className="italic text-gray-300">C/C++</li>
+                <h3 className="text-gray-100 text-center">More Skills</h3>
+                <li className="italic text-gray-300">React Native</li>
+                <li className="italic text-gray-300">ExpressJs</li>
                 <li className="italic text-gray-300">NodeJs</li>
-                <li className="italic text-gray-300">Data Bases (SQL)</li>
+                <li className="italic text-gray-300">TypeScript</li>
+                <li className="italic text-gray-300">JQuery</li>
+                <li className="italic text-gray-300">Figma(UX/UI design)</li>
+                <li className="italic text-gray-300">Data Bases (SQL,NoSql), <br/>MySql,MongoDB, PostgreSQL, etc.</li>
+                <li className="italic text-gray-300">Unit Testing</li>
+                <li className="italic text-gray-300">Docker & Kuberante</li>
+
+                <li className="italic text-gray-300">C/C++</li>
                 <li className="italic text-gray-300">Networking</li>
-                <li className="italic text-gray-300">...</li>
-                
+                <li className="italic text-gray-300">Puppet</li>
+                <li className="italic text-gray-300">Computer Networking</li>
+                <li className="italic text-gray-300">...etc.</li>
+
               </div>
             </div>
             </div>
