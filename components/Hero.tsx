@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="bg-hero-pattern inset-0 bg-cover bg-center bg-fixed relative h-screen w-full  mx-auto max-w-7xl overflow-hidden">
-      
+      className="bg-hero-pattern inset-0 bg-cover bg-center bg-fixed relative h-screen w-full  mx-auto max-w-7xl overflow-hidden"
+    >
       <div className="relative flex min-h-screen flex-row">
         <div
           className="absolute bottom-0 right-0 top-0 h-full w-2/12 bg-purple-700 lg:w-1/6 "
@@ -21,8 +21,6 @@ const Hero = () => {
         </div>
 
         <div className="absolute inset-0 bg-black opacity-70"></div>
-
-        
       </div>
       <div className="absolute bottom-0 flex w-10/12 h-screen flex-col-reverse items-center justify-center md:flex-row md:items-end max-768:flex-col-reverse max-920:flex-col-reverse max-1024:flex-col-reverse ">
           <div className=" relative px-6 pb-16 pt-15 sm:w-full max-640:ml-4 mt-12 " data-aos="fade-down">
@@ -34,29 +32,28 @@ const Hero = () => {
               <button className="btn text-2xl bg-purple-700 text-gray-200 px-0 hover:bg-purple-900 max-640:ml-4 max-640:text-lg">
                 See Resume
               </button>
-              </a>
+            </a>
+          </div>
+          <div className="mt-10 flex flex-col gap-10">
+            <div
+              className="flex justify-around w-80 items-center gap-5"
+              data-aos="fade-down"
+              data-aos-delay="300"
+            >
+              <h3 className="text-gray-100">Committed To</h3>
+              <h5 className="text-purple-400">What I Do</h5>
             </div>
-            <div className="mt-10 flex flex-col gap-10">
-              <div
-                className="flex justify-around w-80 items-center gap-5"
-                data-aos="fade-down"
-                data-aos-delay="300"
-              >
-                <h3 className="text-gray-100">Experienced In</h3> 
-                <h5 className="text-purple-400">What I Do</h5>
-              </div>
-              <div
-                className="flex w-80 items-center gap-5"
-                data-aos="fade-down"
-                data-aos-delay="300"
-              >
-                <h3 className="text-gray-100">40+</h3>
-                <p className="text-gray-200">Projects created</p>
-              </div>
+            <div
+              className="flex w-80 items-center gap-5"
+              data-aos="fade-down"
+              data-aos-delay="300"
+            >
+              <h3 className="text-gray-100">40+</h3>
+              <p className="text-gray-200">Projects created</p>
             </div>
           </div>
-          
         </div>
+      </div>
     </section>
   );
 };

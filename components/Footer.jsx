@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Me from "@/public/img/Me.png";
-import Akem from "@/public/img/Akem.jpg"
+import Akem from "@/public/img/Akem.jpg";
 const Footer = () => {
   return (
     <footer className="bg-gray-950">
@@ -9,16 +9,16 @@ const Footer = () => {
         <div className="md:flex md:justify-around">
           <div className="mb-6 md:mb-0 relative">
             <a href="https://flowbite.com/" className="flex items-center">
-              <Image
-                src={Me}
-                className="h-8 me-3"
-                alt="Logo"
-              />
+              <Image src={Me} className="h-8 me-3" alt="Logo" />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 AkemMensah
               </span>
             </a>
-            <Image src={Akem} alt="Me" className="w-2/5 absolute right-12 top-20 border-2 rounded-full max-640:top-60 max-640:w-1/5 max-640:right-40"/>
+            <Image
+              src={Akem}
+              alt="Me"
+              className="w-2/5 absolute right-12 top-20 border-2 rounded-full max-640:top-60 max-640:w-1/5 max-640:right-40"
+            />
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
@@ -48,10 +48,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://swiperjs.com/"
-                    className="hover:underline"
-                  >
+                  <a href="https://swiperjs.com/" className="hover:underline">
                     Swiper Js
                   </a>
                 </li>
@@ -79,18 +76,12 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a
-                    href="https://discord.gg/"
-                    className="hover:underline"
-                  >
+                  <a href="https://discord.gg/" className="hover:underline">
                     Discord
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a
-                    href="https://twiter.com/"
-                    className="hover:underline"
-                  >
+                  <a href="https://twiter.com/" className="hover:underline">
                     X
                   </a>
                 </li>

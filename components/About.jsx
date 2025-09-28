@@ -16,7 +16,8 @@ const Projects = () => {
             ABOUT ME
           </h2>
           <h4 className="subtitle" data-aos="fade-down">
-            <span className="text-white">Emmanuel Adane </span><br />
+            <span className="text-white">Emmanuel Adane </span>
+            <br />
             <span className="text-sm text-white">(AkemMensah)</span>
           </h4>
           <br />

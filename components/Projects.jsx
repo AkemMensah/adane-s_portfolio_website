@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import { projectsItems } from "@/data";
-
+import Link from "next/link";
 import ProjectsSVG from "@/public/svg/Innovation-amico.svg";
 import "swiper/css";
 import "swiper/css/pagination";

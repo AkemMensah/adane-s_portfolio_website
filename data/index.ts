@@ -15,10 +15,10 @@ import Launch from "@/public/svg/Market launch-amico.svg";
 import web from "@/public/img/web.jpg";
 import mobile from "@/public/img/mobile.jpg";
 import game from "@/public/img/game0.jpg";
-import Sammy from "@/public/img/Sammy.jpg"
-import Jane from "@/public/img/Jane.jpg"
-import John from "@/public/img/John Bright.jpg"
-import Sarah from "@/public/img/Sarah.jpg"
+import Sammy from "@/public/img/Sammy.jpg";
+import Jane from "@/public/img/Jane.jpg";
+import John from "@/public/img/John Bright.jpg";
+import Sarah from "@/public/img/Sarah.jpg";
 import Ux from "@/public/svg/ui ux design.png";
 import Tailwind from "@/public/img/tailwind.png";
 import version from "@/public/img/version.png";
@@ -143,48 +143,48 @@ export const projectsItems = [
 export const skillsItems = [
   {
     name: "JavaScript",
-    description:"Great website interactivity with JS",
+    description: "Great website interactivity with JS",
     logo: Js,
   },
   {
     name: "React/Nextjs/Redux Toolkit",
-    description:"FrontEnd expert with React & NextJs",
+    description: "FrontEnd expert with React & NextJs",
     logo: React,
   },
   {
     name: "Python",
-    description:"Elegant architecture in python",
+    description: "Elegant architecture in python",
     logo: Python,
   },
   {
     name: "Django",
-    description:"Ardent developer with Django",
+    description: "Ardent developer with Django",
     logo: Django,
   },
   {
     name: "UX/UI",
-    description:"Seemless interface designs",
+    description: "Seemless interface designs",
     logo: Ux,
   },
-  
+
   {
     name: "HTML/CSS",
-    description:"Semantic Html with flawless designs",
+    description: "Semantic Html with flawless designs",
     logo: Html,
   },
   {
     name: "Bootstrap",
-    description:"Responsive development of mobile-first websites",
+    description: "Responsive development of mobile-first websites",
     logo: Bootstrap,
   },
   {
     name: "TailwindCss",
-    description:"Utility first-class framework for rapid custom UI",
+    description: "Utility first-class framework for rapid custom UI",
     logo: Tailwind,
   },
   {
     name: "Version control(Git)",
-    description:"Tracking and Managing changes to software code",
+    description: "Tracking and Managing changes to software code",
     logo: version,
   },
 ];
@@ -193,19 +193,19 @@ export const servicesItems = [
   {
     title: "Web Development",
     description:
-    "As a web developer, I design and build responsive, user-friendly websites and applications. Using technologies like HTML, CSS, JavaScript, and frameworks such as React and Node.js, I create engaging digital experiences. I focus on clean code, performance optimization, and seamless functionality to deliver impactful solutions.",
+      "As a web developer, I design and build responsive, user-friendly websites and applications. Using technologies like HTML, CSS, JavaScript, and frameworks such as React and Node.js, I create engaging digital experiences. I focus on clean code, performance optimization, and seamless functionality to deliver impactful solutions.",
     logo: web,
   },
   {
     title: "Mobile Development",
     description:
-    "As a mobile developer, I create intuitive and efficient mobile applications for Android and iOS platforms. Using tools like Swift, Kotlin, and Flutter, I design, code, and test apps to ensure a seamless user experience. My focus is on performance, user-centric design, and delivering high-quality, scalable solutions.",
+      "As a mobile developer, I create intuitive and efficient mobile applications for Android and iOS platforms. Using tools like Swift, Kotlin, and Flutter, I design, code, and test apps to ensure a seamless user experience. My focus is on performance, user-centric design, and delivering high-quality, scalable solutions.",
     logo: mobile,
   },
   {
     title: "Game Development",
     description:
-    "As a game developer, I design and build engaging, interactive games using engines like Unity and Unreal. I create compelling storylines, realistic graphics, and seamless gameplay. My work involves coding, testing, and iterating to ensure a fun and immersive experience for players across various platforms.",
+      "As a game developer, I design and build engaging, interactive games using engines like Unity and Unreal. I create compelling storylines, realistic graphics, and seamless gameplay. My work involves coding, testing, and iterating to ensure a fun and immersive experience for players across various platforms.",
     logo: game,
   },
 ];
@@ -214,7 +214,7 @@ export const testimonialsItems = [
   {
     name: "Sammy",
     review:
-    "Working with AkemMensah has been an absolute pleasure.\
+      "Working with AkemMensah has been an absolute pleasure.\
     Their expertise as a software developer is unparalleled.\
     They delivered a high-quality, efficient solution tailored\
     to our needs.",
@@ -223,7 +223,7 @@ export const testimonialsItems = [
   {
     name: "John Bright",
     review:
-    "Working with Akem has been a game-changer for our project.\
+      "Working with Akem has been a game-changer for our project.\
     Their expertise as a software developer is evident in the\
     seamless, efficient solutions they deliver. ",
     image: John,
@@ -231,7 +231,7 @@ export const testimonialsItems = [
   {
     name: "Sarah",
     review:
-    "Akem's expertise as a software developer is exceptional.\
+      "Akem's expertise as a software developer is exceptional.\
     Their ability to translate our requirements into\
     functional, user-friendly applications was impressive.",
     image: Sarah,
@@ -239,7 +239,7 @@ export const testimonialsItems = [
   {
     name: "Jane",
     review:
-    "Adane has been instrumental in transforming our project.\
+      "Adane has been instrumental in transforming our project.\
     Their expertise and dedication as a software developer\
     ensured the delivery of efficient, user-friendly applications.",
     image: Jane,
@@ -247,26 +247,25 @@ export const testimonialsItems = [
 ];
 
 export const approachItems = [
-  {title:"Planning & Strategy",
-    des:"We'll collaborate to map out your website's goals, target audience,\
+  {
+    title: "Planning & Strategy",
+    des: "We'll collaborate to map out your website's goals, target audience,\
             and key functionalities. We'll discuss things like site structure\
           navigation, and content requirements.",
     image: Questions,
   },
   {
-    title:"Development & Progress Update",
-    des:"Once we agree on the plan, I cue my lofi playlist and dive into\
+    title: "Development & Progress Update",
+    des: "Once we agree on the plan, I cue my lofi playlist and dive into\
           coding. From initial sketches to polished code, I keep you updated\
           every step of the way.",
     image: Progress,
   },
   {
-    title:"Deployment & Launch",
-    des:"This is where the magic happens! Based on the approved design,\
+    title: "Deployment & Launch",
+    des: "This is where the magic happens! Based on the approved design,\
           I'll translate everything into functional code, building your website\
           from the ground up.",
-    image:Launch,
-  }
-]
-
-
+    image: Launch,
+  },
+];
