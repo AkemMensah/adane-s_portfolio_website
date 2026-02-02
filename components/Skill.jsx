@@ -1,85 +1,94 @@
+"use client";
 import Image from "next/image";
 import { skillsItems } from "@/data";
 import { HiOutlineArrowUpRight } from "react-icons/hi2";
-import Html from "@/public/svg/code.png";
 import backend from "@/public/img/backend.png";
 
 const Skills = () => {
-  return (
-    <section className="min-h-fit bg-gray-800" id="skills">
-      {/*   relative md:container bg-red-950  */}
-      <div className=" flex flex-col px-8 py-14 w-full ">
-        <h2 className="title text-purple-500" data-aos="fade-down">
-          Skills & Competencies
-        </h2>
-        <h4 className="subtitle" data-aos="fade-down">
-          MY TOP SKILLS
-        </h4>
-        <br />
+  const otherSkills = [
+    "React Native", "C/C++", "NodeJs", "ExpressJs", "TypeScript",
+    "Docker", "Unit Testing", "JQuery", "Figma", "SQL", "MongoDB",
+    "PostgreSQL", "Cloud Computing"
+  ];
 
-        <div className="flex flex-wrap justify-center  w-full gap-4">
-          <div className="flex flex-wrap flex-1 justify-center gap-4 w-2/5">
+  return (
+    <section className="bg-slate-900 py-20" id="skills">
+      <div className="container mx-auto px-6 lg:px-20">
+        <div className="mb-12">
+          <h2 className="font-inria text-purple-500 tracking-tighter" data-aos="fade-down">
+            02. SKILLS
+          </h2>
+          <h4 className="font-paprika text-3xl text-white" data-aos="fade-down" data-aos-delay="100">
+            Tech Stack & Competencies
+          </h4>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+          {/* Main Skills Grid (Takes 2 columns on large screens) */}
+          <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
             {skillsItems.map((item, index) => (
               <div
                 key={index}
-                className="group relative flex w-9/12 max-w-sm items-center gap-5 rounded-md border-2 border-purple-700 bg-gray-950 p-5 duration-200 hover:border-pink-500 sm:cursor-pointer"
+                className="group relative flex items-center gap-5 rounded-2xl border border-white/10 bg-slate-950 p-6 transition-all duration-300 hover:border-purple-500 hover:shadow-[0_0_20px_rgba(168,85,247,0.15)] sm:cursor-pointer"
                 data-aos="fade-up"
-                data-aos-delay={index * 400}
+                data-aos-delay={index * 100}
               >
-                <div>
+                <div className="flex-shrink-0 bg-slate-900 p-3 rounded-xl group-hover:bg-purple-900/20 transition-colors">
                   <Image
                     src={item.logo}
                     alt={item.name}
-                    className="w-10 duration-200 group-hover:scale-125"
+                    width={40}
+                    height={40}
+                    className="duration-300 group-hover:scale-110 grayscale group-hover:grayscale-0"
                   />
                 </div>
+
                 <div>
-                  <h6 className="text-gray-100">{item.name}</h6>
-                  <p className="italic text-gray-300">{item.description}</p>
-                  <div className="absolute right-3 top-3 text-xl text-purple-500">
-                    <HiOutlineArrowUpRight size={25} />
-                  </div>
+                  <h6 className="text-gray-100 font-bold">{item.name}</h6>
+                  <p className="text-sm text-gray-400 mt-1 line-clamp-1 group-hover:line-clamp-none transition-all">
+                    {item.description}
+                  </p>
+                </div>
+
+                <div className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity text-purple-500">
+                  <HiOutlineArrowUpRight size={20} />
                 </div>
               </div>
             ))}
           </div>
+
+          {/* "More Competencies" Sidebar */}
           <div
-            className="group flex-wrap max-w-44 sm:-ml-10 max-640:ml-14 max-640:mt-12 items-center gap-5 rounded-md border-4 border-black bg-purple-950 p-5 duration-200 hover:border-yellow-500 sm:cursor-pointer"
+            className="bg-slate-950 border border-purple-500/30 rounded-3xl p-8 h-full"
             data-aos="fade-left"
-            data-aos-delay={1 * 400}
           >
-            {/* <div className="absolute right-2 top-0 text-xl  text-purple-500">
-                  <HiOutlineArrowUpRight size={25} />
-                </div> */}
-            <div className="flex items-center justify-center">
-              <Image
-                src={backend}
-                alt="symbol"
-                className="w-16 duration-200 group-hover:scale-125"
-                sizes={25}
-              />
+            <div className="flex items-center gap-4 mb-6">
+              <div className="bg-purple-600/20 p-2 rounded-lg">
+                <Image src={backend} alt="backend" width={32} height={32} />
+              </div>
+              <h4 className="text-xl font-bold text-white font-poppins">Technical Breadth</h4>
             </div>
-            <div className="list">
-              <h4 className="text-gray-100">More Competencies</h4>
-              <hr />
-              <li className="italic text-gray-300">React Native</li>
-              <li className="italic text-gray-300">C/C++</li>
-              <li className="italic text-gray-300">NodeJs</li>
-              <li className="italic text-gray-300">ExpressJs</li>
-              <li className="italic text-gray-300">TypeScript</li>
-              <li className="italic text-gray-300">Puppet</li>
-              <li className="italic text-gray-300">Docker</li>
-              <li className="italic text-gray-300">Unit Testing</li>
-              <li className="italic text-gray-300">JQuery</li>
-              <li className="italic text-gray-300">Figma(UX/UI Design)</li>
-              <li className="italic text-gray-300">
-                Data Bases (SQL,NoSql), MySql,MongoDB, PostgreSQL, etc.
-              </li>
-              <li className="italic text-gray-300">Networking</li>
-              <li className="italic text-gray-300">Cloud Computing</li>
-              <li className="italic text-gray-300">...</li>
+
+            <div className="flex flex-wrap gap-2">
+              {otherSkills.map((skill, i) => (
+                <span
+                  key={i}
+                  className="px-3 py-1 text-xs font-medium border border-white/10 bg-white/5 text-gray-300 rounded-full hover:border-purple-500 hover:text-white transition-colors cursor-default"
+                >
+                  {skill}
+                </span>
+              ))}
+              <span className="text-purple-500 animate-pulse">...</span>
+            </div>
+
+            <div className="mt-8 pt-6 border-t border-white/10">
+              <p className="text-sm text-gray-500 italic leading-relaxed">
+                Regularly exploring new tools like Docker and Cloud Architecture to build more resilient systems.
+              </p>
             </div>
           </div>
+
         </div>
       </div>
     </section>

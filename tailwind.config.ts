@@ -8,9 +8,12 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      Poppins: "Poppins",
-      Paprika: "Paprika",
-      Inria: "Inria Serif",
+      // Poppins: "Poppins",
+      // Paprika: "Paprika",
+      // Inria: "Inria Serif",
+      poppins: ['var(--font-poppins)', 'sans-serif'],
+      inria: ['var(--font-inria)', 'serif'],
+      paprika: ['var(--font-paprika)', 'cursive'],
     },
     container: {
       center: true,

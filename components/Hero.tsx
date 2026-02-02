@@ -1,60 +1,78 @@
-// import Image from "next/image";
-
 const Hero = () => {
   return (
     <section
       id="home"
-      className="bg-hero-pattern inset-0 bg-cover bg-center bg-fixed relative h-screen w-full  mx-auto max-w-7xl overflow-hidden"
+      className="relative h-screen w-full mx-auto overflow-hidden bg-hero-pattern bg-cover bg-center bg-fixed"
     >
-      <div className="relative flex min-h-screen flex-row">
-        <div
-          className="absolute bottom-0 right-0 top-0 h-full w-2/12 bg-purple-700 lg:w-1/6 "
-          data-aos="slide-left"
-          data-aos-delay="1200"
-        >
-          <div className="flex relative h-full flex-col justify-center md:w-12 max-640:w-12">
-            <h1 className=" ml-6  rotate-90  mb-20 md:ml-12 md:text-5xl">
-              <span className="text-white mr-0 text-5xl">Akem</span>
-              <span className="text-gray-950 text-5xl">Mensah</span>
-            </h1>
-          </div>
-        </div>
+      {/* 1. Background Overlay for readability */}
+      <div className="absolute inset-0 bg-black/60 backdrop-blur-[1px]" />
 
-        <div className="absolute inset-0 bg-black opacity-70"></div>
-      </div>
-      <div className="absolute bottom-0 flex w-10/12 h-screen flex-col-reverse items-center justify-center md:flex-row md:items-end max-768:flex-col-reverse max-920:flex-col-reverse max-1024:flex-col-reverse ">
-        <div
-          className=" relative px-6 pb-16 pt-15 sm:w-full max-640:ml-4 mt-12 "
-          data-aos="fade-down"
+      <div className="relative flex h-full w-full max-w-7xl mx-auto">
+        
+        {/* 2. Left Side: Content Area */}
+        <div 
+          className="flex flex-col justify-center w-full md:w-10/12 px-6 lg:px-12 z-10"
+          data-aos="fade-right"
+          data-aos-delay="200"
         >
-          <h3 className="text-purple-500 mt-[-10]">Full Stack Developer</h3>
-          <br />
-          <div className="flex justify-end absolute left-60 bottom-4 max-640:left-10 max-640:bottom-0">
-            {/* <a href="https://docs.google.com/document/d/1y0KGqwev4UbkCwmpjDMG1mH71EZe9lXM/edit?usp=sharing&ouid=103475265721559371163&rtpof=true&sd=true"> */}
-            <a href="https://drive.google.com/file/d/1IkjgVir05YEPQwzrQYb2Vddb3pbXKvrq/view?usp=sharing">
-              <button className="btn text-2xl bg-purple-700 text-gray-200 px-0 hover:bg-purple-900 max-640:ml-4 max-640:text-lg">
-                See Resume
+          <div className="space-y-2">
+            <h3 className="font-paprika text-purple-400 tracking-wider">
+              Full Stack Developer
+            </h3>
+            <h2 className="text-white max-w-2xl">
+              Building digital experiences that scale.
+            </h2>
+          </div>
+
+          {/* Stats / Focus area */}
+          <div className="mt-12 space-y-8">
+            <div 
+              className="flex items-center gap-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div className="h-[2px] w-12 bg-purple-500" />
+              <p className="text-gray-300 uppercase tracking-widest text-sm font-bold">
+                Committed To <span className="text-purple-400 ml-2">Quality</span>
+              </p>
+            </div>
+
+            <div 
+              className="flex items-center gap-8"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div className="flex flex-col">
+                <span className="text-5xl font-bold text-white">40+</span>
+                <span className="text-gray-400 text-sm italic">Projects Completed</span>
+              </div>
+            </div>
+          </div>
+
+          {/* CTA Button */}
+          <div className="mt-12" data-aos="zoom-in" data-aos-delay="800">
+            <a 
+              href="https://docs.google.com/document/d/1_dPwEacvtiGNDBD92EWEoH-nT3IeLqDz/edit?usp=sharing&ouid=103475265721559371163&rtpof=true&sd=true"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn bg-purple-700 text-white border-purple-700 hover:bg-transparent hover:text-purple-400 transition-all duration-300 text-lg px-12 py-4">
+                View My Resume
               </button>
             </a>
           </div>
-          <div className="mt-10 flex flex-col gap-10">
-            <div
-              className="flex justify-around w-80 items-center gap-5"
-              data-aos="fade-down"
-              data-aos-delay="300"
-            >
-              <h3 className="text-gray-100">Committed To</h3>
-              <h5 className="text-purple-400">What I Do</h5>
-            </div>
-            <div
-              className="flex w-80 items-center gap-5"
-              data-aos="fade-down"
-              data-aos-delay="300"
-            >
-              <h3 className="text-gray-100">40+</h3>
-              <p className="text-gray-200">Projects created</p>
-            </div>
-          </div>
+        </div>
+
+        {/* 3. Right Side: Vertical Name Panel */}
+        <div
+          className="absolute bottom-0 right-0 top-0 hidden md:flex w-2/12 lg:w-1/6 bg-purple-700 items-center justify-center z-20 shadow-2xl"
+          data-aos="slide-left"
+          data-aos-delay="1000"
+        >
+          <h1 className="whitespace-nowrap -rotate-90 flex gap-4 uppercase tracking-[0.2em]">
+            <span className="text-white font-inria">Akem</span>
+            <span className="text-black/40 font-inria">Mensah</span>
+          </h1>
         </div>
       </div>
     </section>

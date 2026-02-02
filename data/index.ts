@@ -126,7 +126,7 @@ export const projectsItems = [
   {
     title: "E-commerce Website",
     image: ProjectImg1,
-    link: "https://silver-gain.vercel.app/",
+    link: "https://silvergain.vercel.app/",
   },
   {
     title: "Restaurant Platform App",
