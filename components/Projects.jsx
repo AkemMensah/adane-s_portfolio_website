@@ -48,9 +48,9 @@ const Projects = () => {
                 >
                   {/* Project Image Container */}
                   <div className="relative aspect-video w-full overflow-hidden group">
-                    <Image 
-                      src={item.image} 
-                      alt={item.title} 
+                    <Image
+                      src={item.image}
+                      alt={item.title}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
