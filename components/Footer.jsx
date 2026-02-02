@@ -30,7 +30,7 @@ const Footer = () => {
               </span>
             </a>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Crafting high-performance web experiences with precision and creativity. Let's build the future together.
+              Crafting high-performance web experiences with precision and creativity. Let&apos;s build the future together.
             </p>
           </div>
 

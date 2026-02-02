@@ -48,7 +48,7 @@ const About = () => {
                 <p className="text-gray-400 leading-relaxed text-lg">
                   I am a versatile Full Stack Software Engineer driven by the challenge of turning complex problems into elegant, scalable digital solutions. With a core foundation in <span className="text-purple-400">React, Node.js, and Python</span>, I bridge the gap between robust backend architecture and seamless user experiences.
                   <br /><br />
-                  I don't just write code; I build tools that solve real-world problems. Whether collaborating in agile teams or leading a solo sprint, I stay committed to clean architecture and innovative thinking.
+                  I don&apos;t just write code; I build tools that solve real-world problems. Whether collaborating in agile teams or leading a solo sprint, I stay committed to clean architecture and innovative thinking.
                 </p>
               </SwiperSlide>
 
@@ -87,7 +87,7 @@ const About = () => {
                   "Technology is a rapidly evolving landscape, and I make it my mission to never stop being a student of the craft."
                 </p>
                 <p className="text-gray-400 leading-relaxed text-lg mt-4">
-                  My goal is to contribute to impactful projects that push the boundaries of what's possible on the web. I'm currently looking for opportunities to collaborate with forward-thinking teams where I can apply my expertise in modern stacks to create value-driven software.
+                  My goal is to contribute to impactful projects that push the boundaries of what&apos;s possible on the web. I&apos;m currently looking for opportunities to collaborate with forward-thinking teams where I can apply my expertise in modern stacks to create value-driven software.
                 </p>
               </SwiperSlide>
             </Swiper>

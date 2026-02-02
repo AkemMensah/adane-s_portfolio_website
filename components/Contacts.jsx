@@ -14,7 +14,7 @@ const Contact = () => {
             07. CONNECT
           </h2>
           <h4 className="font-paprika text-3xl text-white mt-2" data-aos="fade-down" data-aos-delay="100">
-            Let's Build Something Together
+            Let&apos;s Build Something Together
           </h4>
         </div>
 
@@ -67,7 +67,7 @@ const Contact = () => {
               <div className="h-[1px] w-full bg-white/5 mb-8" />
 
               <p className="text-gray-400 leading-relaxed mb-10 font-poppins">
-                I'm currently available for freelance work or full-time positions. If you have a project that needs a sophisticated touch, or just want to say hi, my inbox is always open.
+                I&apos;m currently available for freelance work or full-time positions. If you have a project that needs a sophisticated touch, or just want to say hi, my inbox is always open.
               </p>
 
               <a

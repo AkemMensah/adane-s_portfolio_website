@@ -70,7 +70,7 @@ const ContactForm = () => {
       {submitted && (
         <div className="mb-8 flex items-center gap-3 justify-center text-green-400 bg-green-400/10 border border-green-400/20 p-4 rounded-2xl animate-fade-in">
           <HiOutlineBadgeCheck size={24} />
-          <span className="font-medium">Message received! I'll get back to you shortly.</span>
+          <span className="font-medium">Message received! I&apos;ll get back to you shortly.</span>
         </div>
       )}
 
