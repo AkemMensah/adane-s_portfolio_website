@@ -84,7 +84,7 @@ const About = () => {
               <SwiperSlide className="bg-slate-900/50 backdrop-blur-sm p-8 rounded-3xl border border-white/5 border-b-4 border-b-purple-600 min-h-[400px]">
                 <h3 className="text-white font-poppins mb-4 text-2xl font-bold">My Mission</h3>
                 <p className="text-gray-400 leading-relaxed text-lg italic">
-                  "Technology is a rapidly evolving landscape, and I make it my mission to never stop being a student of the craft."
+                  &quot;Technology is a rapidly evolving landscape, and I make it my mission to never stop being a student of the craft.&quot;
                 </p>
                 <p className="text-gray-400 leading-relaxed text-lg mt-4">
                   My goal is to contribute to impactful projects that push the boundaries of what&apos;s possible on the web. I&apos;m currently looking for opportunities to collaborate with forward-thinking teams where I can apply my expertise in modern stacks to create value-driven software.

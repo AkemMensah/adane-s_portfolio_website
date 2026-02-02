@@ -108,20 +108,20 @@ const ContactForm = () => {
         </div>
 
         {/* Message Field */}
-        <div className="space-y-2 text-left">
-          <label htmlFor="message" className="text-sm font-semibold text-gray-300 ml-1">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            rows="5"
-            value={formData.message}
-            onChange={handleChange}
-            placeholder="How can I help you?"
-            className={`w-full bg-slate-950 border ${errors.message ? 'border-red-500' : 'border-white/10'} rounded-2xl p-4 text-white placeholder:text-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-600/50 transition-all resize-none`}
-          />
-          {errors.message && <p className="text-red-500 text-xs mt-1 ml-1">{errors.message}</p>}
-        </div>
-
+        {/* Message Field */}
+<div className="space-y-2 text-left">
+  <label htmlFor="message" className="text-sm font-semibold text-gray-300 ml-1">Message</label>
+  <textarea
+    id="message"
+    name="message"
+    rows={5} // Changed from string to number
+    value={formData.message}
+    onChange={handleChange}
+    placeholder="How can I help you?"
+    className={`w-full bg-slate-950 border ${errors.message ? 'border-red-500' : 'border-white/10'} rounded-2xl p-4 text-white placeholder:text-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-600/50 transition-all resize-none`}
+  />
+  {errors.message && <p className="text-red-500 text-xs mt-1 ml-1">{errors.message}</p>}
+</div>
         {/* Submit Button */}
         <div className="pt-4">
           <button
